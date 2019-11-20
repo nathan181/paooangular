@@ -1,0 +1,8 @@
+<div class="container">
+        <h1 class="titulo">Livros</h1>
+        <ul class="categorias">
+          <li *ngFor="let categoria of categorias">{{categoria.titulo}}</li>
+       
+        </ul> 
+        <button (click)="adicionarCategoria()">Adicionar categoria </button>
+      </div>
